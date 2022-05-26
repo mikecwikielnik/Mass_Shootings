@@ -18,7 +18,7 @@ print(dotaddress[6])
 
 # pandas read csv
 
-df = pd.read_csv(r'C:/Users/mikec/Google Drive/SQL/shootingdata.csv')
+df = pd.read_csv(r'C:/Users/mikec/***/shootingdata.csv')
 
 # test to get states only
 
