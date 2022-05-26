@@ -18,7 +18,7 @@ print(dotaddress[6])
 
 # pandas read csv
 
-df = pd.read_csv(r'C:/Users/mikec/***/shootingdata.csv')
+df = pd.read_csv(r'C:/Users/mikec/Google Drive/SQL/shootingdata.csv')
 
 # test to get states only
 
@@ -51,9 +51,9 @@ list = ["Texas", "Illinois", "Massachusetts"]
 colors = ["red" if i in list 
           else "blue" for i in states]
 ax.bar(xvalues, frequencies, color = colors)
-ax.set_xlabel("States", fontsize=8, edgecolors='black')
+ax.set_xlabel("States", fontsize=16, edgecolors='black')
 fig.autofmt_xdate()
-ax.set_ylabel("Count")
+ax.set_ylabel("Count", fontsize=16)
 ax.set_title("\nCount of Mass Shootings per State\nSept 2018 - May 2022\ngunviolence.org/reports/mass-shooting\n", fontsize = 10)
 plt.tick_params(axis='both', which='major', length=6, colors='black', labelsize=8)
 plt.show()
